@@ -5,7 +5,6 @@ class ElementHandler {
 
 
   element(element) {
-    // An incoming element, such as `div`
     if(this.variant_opt==="variant-1"){
       if(element.tagName==="title"){
         element.setInnerContent("First sample title")
